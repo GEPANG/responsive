@@ -1,0 +1,421 @@
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    li{
+        list-style-type: none;
+    }
+    a{
+        text-decoration: none;
+    }
+    html{
+        font-size: 62.5%;
+    }
+    /*浏览器更新提示*/
+    .browserupgrade{
+        margin: 0;
+        padding: 1rem;
+        background: #ccc;
+    }
+    body{
+        font-size: 1.2rem;
+        line-height: 1.5;
+        background-color:#f7f7f7; 
+        width: 100%;
+        position: relative;
+    }
+    a{
+        color: #666;
+        text-decoration: none;
+    }
+    a:hover ,a:active{
+        color: #0ae;
+        text-decoration: underline;
+    }
+    .clearfix::after,
+    .clearfix::before{
+        content: "";
+        display: block;
+    }
+    .clearfix::after{
+        clear: both;
+    }
+
+    .Bg{
+        width: 100%;
+    }
+    /*头部*/
+    .head{
+        position:absolute;
+        top: 0;
+        width: 95.8%;
+        left: 2.1%;
+    }
+    .head-img{
+        width: 100%;
+    }
+    .head-title{
+        position:absolute;
+        top: 0;
+        width: 96%;
+        left: 2%;
+    }
+    .wl{
+        float: left;
+    }
+    .wl img{
+        float: left;
+        margin-top: 15%;
+    }
+    .head .design{
+        float: left;
+        margin-top: 8%;
+        color: #fff;
+        margin-left: 2rem;
+    }
+    .head .design h1{
+        font-size: 3rem;
+    }
+    .head .design i{
+        font-size: 1.12rem;
+        padding-left: 0.5rem;
+    }
+    .head .menu{
+        float: right;
+        font-size: 2rem;
+        color: #fff;
+        margin-right: 1rem;
+        margin-top: 3%;
+    }
+    .head .menu .catalog{
+        float: left;
+    }
+    .head .menu .catalog + .catalog{
+        margin-left: 4rem;
+    }
+   .home{
+    position: absolute;
+    top: 5.2%;
+    width: 92.2%;
+    left: 3.9%;
+    }
+    .bar{
+        position: absolute;
+        width: 96%;
+        left: 2%;
+        top:21%;
+        height: 8rem;
+    }
+
+
+    /*bar部分*/
+    .list{
+        position: absolute;
+        top: 21.68%;
+        left: 6%;
+        color: #fff;
+        width:90.6%;
+        font-size: 2rem;
+    }
+    .list li{
+        float: left;
+        width: 12.4%;
+        text-align: center;
+      
+    }
+    .list li + li{
+        border-left: 0.1rem solid #ffffff; 
+    }
+
+    .up{
+       position: absolute;
+       top: 23.6%;
+       width: 96%;
+       left: 2%;
+    }
+
+    .shadow{
+        width: 100%;
+    }
+    .nav1{
+        position: absolute;
+        top: 0;
+    }
+    .img-nav{
+      margin-top: 4rem;
+      padding-left: 1.85rem; 
+      color: #fff;
+    }
+    .img-nav .nav{
+       width: 48rem;
+    }
+    .img-nav ul li{
+        background: url(../img/arrow.png) no-repeat 2rem 1.8rem;
+        background-size: 2rem 2rem;
+        padding-left: 5rem;
+        line-height: 5rem;
+        font-size: 2rem;
+        margin-left: 1rem;
+        border-bottom: 0.1rem dashed #fff;
+    }
+
+    .img-nav .us{
+        margin-top: 6rem;
+    }
+    .img-nav h2{
+        background: url(../img/small-line.png) no-repeat 0 4rem;
+        background-size: 48rem 2rem;
+        font-size: 3rem;
+        padding-left: 3.6rem;
+        height: 8rem;
+    }
+    .link{
+        font-size: 2.4rem;
+        margin-left: 3.6rem;
+    }
+    .link p:first-child::before{
+        content: '总部地址';
+    }
+    .link p:nth-child(2)::before{
+        content: '分部地址';
+    }
+    .link p:nth-child(3){
+        margin-top: 1.5rem;
+    }
+     .link span+span{
+          margin-left: 5.8rem;
+     }
+    .link p:nth-child(3)::before{
+        content: '电话';
+    }
+    .link p:nth-child(4)::before{
+        content: '联系认';   
+    }
+
+    .text{
+        position: absolute;
+        top: 4rem;
+        right: 0;
+        width: 60%;
+        color: #fff;    
+    }
+    .text h3{
+      /*  background: url(../img/line.png) no-repeat 0 4rem;*/
+        height: 6rem;
+        width: 67rem;
+        padding-left: 4rem;
+        font-size: 2.2rem;
+    }
+    .text h4{
+        text-align: center;
+        margin-top: 3rem;
+        font-size: 2rem;
+    }
+    .text .author{
+        line-height: 3rem;
+        height: 3rem;
+        font-size: 1.4rem;
+        color: #000000;
+        background: #fff;
+        margin-top: 2rem;
+        margin-right: 5rem;
+        margin-left: 4rem;
+    }
+    .text .author span{
+        margin-left: 4rem;
+    }
+    .text .author span:first-child:before{
+        content:'作者：';
+    }
+    .text .author span:nth-child(2)::before{
+        content:'发布于：';
+    }
+    .text .author span:nth-child(3)::before{
+        content:'文字：';
+    }
+    .text .digest{
+       font-size: 1.4rem;
+       margin: auto;
+       background: #fff;
+       color: #000000;
+       margin-top: 2rem;
+       margin-right: 5rem;
+       margin-left: 4rem;
+    }
+    .text .digest p{
+       padding: 1rem;
+       line-height: 2.6rem;
+    }
+    .text .digest p::before{
+        content: '摘要：';
+        color: red;
+    }
+
+    .text .eat{
+    margin: 4rem 19rem 0;
+    }
+
+    .text .article{
+        font-size: 1.2rem;
+        color: #ffffff;
+        margin-top: 4rem;
+    }
+    .text .article h5{
+        font-size: 2rem;
+        text-align: center;
+    }
+    .text .article p{
+       text-indent:3rem;
+       width: 83%;
+       margin: 4rem auto;
+       line-height: 2.2rem;
+    }
+
+    footer{
+       position: absolute;
+       bottom: 5rem;
+       color: #fff;
+       text-align: center;
+       line-height: 5rem;
+       margin-left: 3.9%;
+       width:92.2%;
+       border-top: 0.1rem solid #671d1d;
+    }
+    footer span{
+     font-size: 2rem;
+      margin-left: 1rem;
+    }
+
+   
+
+
+    @media only screen and (max-width:87.5em){
+         .wl{
+            display: none;
+         }
+         .nav1{
+             display: none;
+         }
+         .text{
+             left: 0;
+             width: 100rem;
+             margin: auto;
+         }
+         .text h3{
+            display: none;
+         }
+         .text .eat{
+             margin:  4rem 19rem 0;
+             display: none;
+         }
+         .text .author span {
+            margin-left: 10rem;
+        }
+        footer{
+            line-height: 4rem;
+            bottom: 2rem;
+        }
+        footer span{
+            font-size: 1.5rem;
+             margin-left: 1rem;
+           }       
+    }
+
+    @media only screen and (max-width:64em){
+        .list{
+            font-size: 1.2rem;
+            padding-top: 0.2rem;
+            line-height: 1rem;
+        }
+        .bar{
+            height: 4rem;
+        }
+        .list li:nth-child(8){
+            display: none;
+        }
+        .list li{
+            width: 14%;
+        }
+        .text{
+          width: 86%;
+        }
+        .text .author span{
+            margin-left: 3rem;
+        }
+        .text .article{
+            margin-top: 3rem;
+        }
+        .text .article p{
+            margin: 2rem auto;
+        }
+        .text .article p:nth-child(3){
+            display: none;
+        }
+        .text .article p:nth-child(6){
+            display: none;
+        }
+        footer{
+            line-height: 3rem;
+            bottom: 0rem;
+        }
+        footer span{
+            font-size: 1rem;
+        }
+    }
+
+
+    @media only  screen and (max-width:50em){
+        .head .menu{
+            float: none;
+            font-size: 1.2rem;
+        }
+        .head .menu .catalog + .catalog{
+            margin-left: 2rem;
+        }
+        .bar{
+           top: 20.1%;
+           height: 3rem;
+        }
+        .list{
+            font-size: 1rem;
+            margin-top: -0.9rem;
+            line-height: 1rem;
+        }
+        .up{
+            top: 22.6%;
+        }
+        .text{
+            top: 0rem;
+            width: 100%;
+        }
+        .text h4{
+            font-size: 1.5rem;
+        }
+        .text .author{
+            font-size: 1rem;
+        }
+        .text .author span {
+            margin-left: 1rem;
+        }
+        .text .digest{
+            font-size: 1rem;
+            margin-top: 1rem;
+        }
+        .text .article {
+            margin-top: 1rem;
+        }
+        .text .article p {
+            margin: 1rem auto;
+            font-size: 1rem;
+        }
+        .text .article p:nth-child(5), .text .article p:nth-child(7){
+            display: none;
+        }
+        footer {
+            line-height: 2rem;
+            bottom: 0rem;
+        }
+        footer span:nth-child(2){
+            display: none;
+        }
+    }
